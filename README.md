@@ -1,105 +1,103 @@
 # SaveMore Supermarket Website
 
-## About the Project
+## 1. Project Overview
 
-SaveMore Supermarket is a simple supermarket website created for a POE project. The website provides customers with information about products, specials, the supermarket, contact details and customer enquiries.
+SaveMore Supermarket is a website developed as part of the WEDE5020 Project Outcome Evidence (POE).
 
-## Purpose
+The purpose of the website is to provide customers with information about the supermarket, its products, weekly specials and contact details. Customers can also submit enquiries and contact messages through the website.
 
-The purpose of the website is to provide an easy and convenient way for customers to:
+## 2. Website Features
 
-* View supermarket products
-* View special offers
-* Learn more about SaveMore Supermarket
-* Send an enquiry
-* Find contact information
+The website includes the following features:
 
-## Website Pages
+- **Home Page:** Introduces SaveMore Supermarket.
+- **Products Page:** Displays different supermarket product categories.
+- **About Page:** Provides information about the supermarket.
+- **Specials Page:** Displays weekly specials.
+- **Enquiry Page:** Allows customers to submit enquiries.
+- **Contact Page:** Allows customers to send messages and view an interactive map.
 
-* **Home** - Introduction to SaveMore Supermarket.
-* **Products** - Displays different product categories.
-* **Specials** - Displays supermarket special offers.
-* **About Us** - Provides information about the supermarket.
-* **Enquiry** - Allows customers to submit an enquiry.
-* **Contact** - Provides contact details and business hours.
+Additional interactive features include:
 
-## Technologies Used
-
-* HTML
-* CSS
-* Visual Studio Code
-
-## Project Structure
-
-
-SaveMore
-│
-├── index.html
-├── products.html
-├── specials.html
-├── about.html
-├── enquiry.html
-├── contact.html
-│
-├── css
-│   └── style.css
-│
-└── images
-
-
-## Features
-
-* Blue, orange and white design
-* Product images
-* Navigation between pages
-* Customer enquiry form
-* Contact information
-* Special offers section
-* Mobile-friendly layout
-
-## Author
-
-Created as part of a POE project.
-
-## Conclusion
-
-## Part 3: Website Enhancements
-
-The SaveMore Supermarket website was enhanced using HTML, CSS and JavaScript.
-
-### Interactive Features
 - Product category search.
-- Image lightbox for viewing product images.
-- CSS animations and transitions.
-- Interactive map on the Contact page.
+- Image gallery with a lightbox.
+- Interactive map using Leaflet and OpenStreetMap.
+- Form validation.
+- Backend integration for processing form submissions.
+- Responsive design for different screen sizes.
+- CSS styling, animations and transitions.
 
-### Forms and Validation
-- Enquiry form for product and service questions.
-- Contact form for general messages.
-- Required fields and browser-side validation.
-- Feedback messages after form submission.
+## 3. Technologies Used
 
-**Note:** The current form implementation provides client-side validation and demonstration responses. Server-side processing and actual email delivery require a connected backend or form service.
+The following technologies were used to develop the website:
 
-### Search Engine Optimization
-- Page-specific titles and meta descriptions.
-- Descriptive image alternative text.
-- `robots.txt` and `sitemap.xml`.
-- Responsive design for mobile screens.
+- HTML5 – Website structure.
+- CSS3 – Website styling and layout.
+- JavaScript – Interactive website features.
+- Node.js – Backend environment.
+- Express.js – Backend server.
+- Leaflet – Interactive map.
+- OpenStreetMap – Map data.
+- GitHub – Version control and source code hosting.
+- GitHub Pages – Website hosting.
+- Render – Backend hosting.
 
-### Technologies
-- HTML5
-- CSS3
-- JavaScript
-- Leaflet and OpenStreetMap
+## 4. Website Pages
 
-### Testing
-The website features should be tested across all six pages, including navigation, forms, product search, the image lightbox, map functionality and mobile layout.
+The website contains six main pages:
 
+1. `index.html`
+2. `products.html`
+3. `about.html`
+4. `specials.html`
+5. `enquiry.html`
+6. `contact.html`
 
+## 5. How to Run the Project Locally
 
-The SaveMore Supermarket website was created to provide customers with useful supermarket information in a simple and user-friendly format.
-![alt text](<Screenshot 2026-09-18 145700.png>)
-MDN Web Docs (2026) HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 18 September 2026).
+To run the backend locally:
 
-This supports your use of HTML structure, links, lists, images
+1. Install Node.js.
+2. Open the project folder in Visual Studio Code.
+3. Open the terminal.
+4. Run:
+
+```bash
+npm install
+```
+
+5. Start the backend server:
+
+```bash
+npm start
+```
+
+The backend should run on the local port configured in `server.js`.
+
+The frontend can be opened using a local development server such as VS Code Live Server.
+
+## 6. Backend and Deployment
+
+The backend is hosted on Render:
+
+https://poe-wede.onrender.com
+
+The frontend is hosted on GitHub Pages:
+
+https://st10522542.github.io/POE-WEDE/
+
+The website uses JavaScript fetch requests to communicate with the backend for enquiry and contact form submissions.
+
+## 7. GitHub Repository
+
+Source code:
+
+https://github.com/ST10522542/POE-WEDE
+
+## 8. Project Purpose
+
+This project demonstrates the application of web development skills, including website design, HTML structure, CSS styling, JavaScript functionality, backend development, form validation, version control and deployment.
+
+## 9. Conclusion
+
+SaveMore Supermarket provides customers with an accessible way to explore supermarket products, view specials and communicate with the business. The project demonstrates the development of a functional website with frontend and backend technologies.
