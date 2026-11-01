@@ -1,0 +1,149 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Contact SaveMore Supermarket for assistance, questions and general enquiries.">
+
+    <title>Contact Us | SaveMore Supermarket</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Leaflet Map CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""
+    >
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>SaveMore Supermarket</h1>
+        <p>Quality Products. Great Prices. Every Day.</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="specials.html">Specials</a>
+        <a href="about.html">About Us</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+
+        <!-- CONTACT FORM -->
+        <section class="form-section">
+
+            <h2>Contact SaveMore</h2>
+
+            <p>
+                Have a question or need assistance?
+                Send us a general message using the form below.
+            </p>
+
+            <form id="contactForm">
+
+                <label for="contactName">Full Name:</label>
+
+                <input
+                    type="text"
+                    id="contactName"
+                    name="name"
+                    placeholder="Enter your full name"
+                    minlength="2"
+                    required
+                >
+
+                <label for="contactEmail">Email Address:</label>
+
+                <input
+                    type="email"
+                    id="contactEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <label for="contactSubject">Subject:</label>
+
+                <input
+                    type="text"
+                    id="contactSubject"
+                    name="subject"
+                    placeholder="Enter your subject"
+                    minlength="3"
+                    required
+                >
+
+                <label for="contactMessage">Your Message:</label>
+
+                <textarea
+                    id="contactMessage"
+                    name="message"
+                    rows="5"
+                    minlength="10"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+                <!-- BACKEND RESPONSE -->
+                <p
+                    id="contactResponse"
+                    role="status"
+                    aria-live="polite"
+                ></p>
+
+            </form>
+
+        </section>
+
+        <!-- INTERACTIVE MAP -->
+        <section class="map-section">
+
+            <h2>Find Us</h2>
+
+            <p>
+                Explore the map to view our example location.
+            </p>
+
+            <div id="map"></div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; 2026 SaveMore Supermarket.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+    <!-- LEAFLET MAP JAVASCRIPT -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""
+    ></script>
+
+    <!-- YOUR WEBSITE JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
