@@ -1,12 +1,12 @@
+
 {
   "name": "ri-pta-wede5020-part1-part2-part3-st10522542",
   "version": "1.0.0",
   "description": "SaveMore Supermarket is a simple supermarket website created for a POE project. The website provides customers with information about products, specials, the supermarket, contact details and customer enquiries.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js"
-}
-  }
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RI-WEDE5020-GR4-P1-P2-P3/ri-pta-wede5020-part1-part2-part3-ST10522542.git"
